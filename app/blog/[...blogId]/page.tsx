@@ -19,7 +19,8 @@ async function getBlogById(blogId: any) {
 export default async function(props : any) {
     const {params} = props 
     const {blogId} = params
-    const blogById = await getBlogById(parseInt(blogId))
+    const blogById = await getBlogById(parseInt(blogId)) 
+    console.log("Hello")
     
     
     return (
