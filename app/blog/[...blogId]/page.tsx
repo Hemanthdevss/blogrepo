@@ -21,6 +21,7 @@ export default async function(props : any) {
     const {blogId} = params
     const blogById = await getBlogById(parseInt(blogId)) 
     console.log("Hello")
+    console.log("Test")
     
     
     return (
